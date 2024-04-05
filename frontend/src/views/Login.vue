@@ -28,6 +28,7 @@ export default {
   },
   inject: ["$auth"],
   async mounted() {
+	
 	if (this.$route?.query?.route) {
 	  this.redirect_route = this.$route.query.route;
 	  this.$router.replace({ query: null });

@@ -15,7 +15,7 @@
 								<p class="py-2 text-center text-gray-200 text-md md:text-lg">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
 								</p>
-								<div class="py-3 flex justify-center">
+								<div class="py-3 pt-10 flex justify-center">
 									<button
 										class="rounded-lg rounded-tr-[15px] bg-[#27A167] shadow-lg md:text-lg font-semibold text-white px-20 py-2"
 									>
@@ -145,14 +145,14 @@ import icon from '../components/icon.vue';
 export default {
   components: { icon },
 	resources: {
-		ping() {
-			return {
-				method: "frappe.ping", // Method to call on backend
-				onSuccess(d) {
-					alert(d);
-				},
-			};
-		},
+		// ping() {
+		// 	return {
+		// 		method: "frappe.ping", // Method to call on backend
+		// 		onSuccess(d) {
+		// 			alert(d);
+		// 		},
+		// 	};
+		// },
 	},
 };
 </script>

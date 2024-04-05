@@ -32,9 +32,21 @@
 							:key="i"
 							class="py-1 hover:text-green-600 text-sm text-white"
 						>
+							<a
+								v-if="nav.name == 'Blog'" target="_blank"
+								href="/blog"
+								:class="
+									$route.path === nav.href
+										? 'flex brand text-green-600 cursor-pointer transition-colors duration-300'
+										: 'flex  cursor-pointer transition-colors duration-300'
+								"
+							>
+								{{ nav.name }}
+							</a>
 							<router-link
+							v-else
 								:to="nav.href"
-								:target="nav.name === 'Curriculum Vitae' ? '_blank' : ''"
+								:target="nav.name === 'Blogs' ? '_blank' : ''"
 								:class="
 									$route.path === nav.href
 										? 'flex brand text-green-600 cursor-pointer transition-colors duration-300'
@@ -87,7 +99,7 @@
 									<router-link
 										:to="item.href"
 										@click="toggleSidebar"
-										:target="item.name === 'Curriculum Vitae' ? '_blank' : ''"
+										:target="item.name === 'sadfd' ? '_blank' : ''"
 										class="text-base text-sm rounded-lg flex items-center p-2 group"
 										:class="
 											$route.path == item.href
@@ -99,7 +111,7 @@
 									</router-link>
 								</li>
 
-                                <li>
+								<li>
 									<router-link
 										to="/contact"
 										@click="toggleSidebar"

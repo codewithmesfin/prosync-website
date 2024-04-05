@@ -42,7 +42,7 @@
 	{ name: "Pricing", href: "/pricing", current: false },
 	{ name: "Docs", href: "/docs", current: false },
 	{ name: "Demo", href: "/demo", current: false },
-	{ name: "Blog", href: "/blog", current: false },
+	{ name: "Blog", href: "/article", current: false },
     {name:"Contact us",href:"/contact",current:false}
   ];
   </script>
