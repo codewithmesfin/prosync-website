@@ -29,21 +29,7 @@
 							<span v-else>{{ item }}</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="px-4 py-3 text-sm text-gray-400 whitespace-nowrap">Try now</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-					</tr>
+					
 				</tbody>
 			</table>
 		</div>
@@ -76,27 +62,7 @@
 							<span v-else>{{ item }}</span>
 						</td>
 					</tr>
-					<tr>
-						<td class="px-4 py-3 text-sm text-gray-400 whitespace-nowrap">Try now</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-						<td class="px-4 py-3 text-sm whitespace-nowrap">
-							<router-link to="" class="text-green-600">Sign up</router-link>
-						</td>
-					</tr>
+					
 				</tbody>
 			</table>
 		</div>
