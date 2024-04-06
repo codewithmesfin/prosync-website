@@ -33,7 +33,8 @@
 							class="py-1 hover:text-green-600 text-sm text-white"
 						>
 							<a
-								v-if="nav.name == 'Blog'" target="_blank"
+								v-if="nav.name == 'Blog'"
+								target="_blank"
 								href="/blog"
 								:class="
 									$route.path === nav.href
@@ -44,7 +45,7 @@
 								{{ nav.name }}
 							</a>
 							<router-link
-							v-else
+								v-else
 								:to="nav.href"
 								:target="nav.name === 'Blogs' ? '_blank' : ''"
 								:class="
@@ -96,7 +97,21 @@
 									</button>
 								</li>
 								<li v-for="item in navigation" :key="item.name">
+									<a
+										v-if="item.name == 'Blog'"
+										target="_blank"
+										href="/blog"
+										class="text-base text-sm rounded-lg flex items-center p-2 group"
+										:class="
+											$route.path == item.href
+												? 'text-green-600'
+												: 'text-gray-300'
+										"
+									>
+									<span class="ml-3">{{ item.name }} </span>
+									</a>
 									<router-link
+										v-else
 										:to="item.href"
 										@click="toggleSidebar"
 										:target="item.name === 'sadfd' ? '_blank' : ''"
