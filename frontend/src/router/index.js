@@ -78,8 +78,8 @@ const routes = [
 
 const router = createRouter({
 	base: "/frontend/",
-	// history: createWebHashHistory(),
-	history:createWebHistory(),
+	history: createWebHashHistory(),
+	// history:createWebHistory(),
 	routes,
 	scrollBehavior() {
 		return { top: 0, left: 0 }
