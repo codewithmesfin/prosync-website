@@ -12,10 +12,10 @@
 				</div>
 			</div>
 		</section>
-		<section class="bg-gray-900 pb-16">
+		<section class="bg-gray-900">
 			<div class="">
-				<div class="w-[90%] md:w-[85%] mx-auto pt-10 pb-16">
-					<div class="md:flex md:space-x-20">
+				<div class="w-[90%] md:w-[85%] mx-auto pt-10 pb-10">
+					<div class="md:flex md:items-center md:space-x-20">
 						<div class="w-full md:w-3/5 my-2">
 							<div class="py-2 hidden md:block">
 								<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -35,23 +35,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="pt-2 md:pt-10">
-								<h1 class="text-3xl md:text-5xl text-gray-200">Contact us</h1>
-								<div class="py-3">
-									<div v-for="(item, i) in items" :key="i">
-										<div class="flex py-2 items-center text-white space-x-3">
-											<icon path="done" />
-											<p>{{ item.title }} :</p>
-											<a :href="item.href" class="text-green-600"
-												>{{ item.value }}
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
 						</div>
 						<div class="w-full md:w-2/5 my-2">
-							<div class="py-5 px-5 md:px-8 bg-gray-800 rounded">
+							<div class="py-5 px-5 md:px-8">
 								<form @submit.prevent="submit">
 									<div class="py-2">
 										<p class="py-2 text-gray-300">Full Name</p>
@@ -103,6 +89,23 @@
 										</button>
 									</div>
 								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-gray-800 py-8">
+			<div class="w-[90%] mx-auto">
+				<div class="pt-2 md:pt-10">
+					<h1 class="text-3xl text-center md:text-5xl text-gray-200">Contact us</h1>
+					<div class="py-3 grid grid-cols-1 md:grid-cols-3">
+						<div class="f9" v-for="(item, i) in items" :key="i">
+							<div class="flex py-2 items-center text-white space-x-3">
+								<icon path="done" />
+								<p>{{ item.title }}</p>
+								<a :href="item.href" class="text-green-600">{{ item.value }} </a>
 							</div>
 						</div>
 					</div>

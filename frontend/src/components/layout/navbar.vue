@@ -163,6 +163,7 @@ const navigation = [
 	{ name: "Home", href: "/", current: true },
 	{ name: "About", href: "/about", current: false },
 	{ name: "Marketplace", href: "/marketplace", current: false },
+	{ name: "Industries", href: "/industries", current: false },
 	{ name: "Pricing", href: "/pricing", current: false },
 	{ name: "Docs", href: "/docs", current: false },
 	{ name: "Demo", href: "/demo", current: false },

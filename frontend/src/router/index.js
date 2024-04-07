@@ -1,4 +1,4 @@
-import { createRouter,  createWebHashHistory } from "vue-router";
+import { createRouter,  createWebHashHistory, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Marketplace from "../views/marketplace/Index.vue";
 import authRoutes from "./auth";
@@ -9,6 +9,7 @@ import Demo from "../views/Demo.vue";
 import Contact from "../views/Contact.vue";
 import ERPNext from "../views/marketplace/ERPNext.vue";
 import Blog from '../views/blog/Blogs.vue'
+import Industries from '../views/Industries.vue'
 
 const routes = [
 	{
@@ -48,6 +49,11 @@ const routes = [
 		component: Pricing,
 	},
 	{
+		path: "/industries",
+		name: "Industries",
+		component: Industries,
+	},
+	{
 		path: "/about",
 		name: "About",
 		component: About,
@@ -72,8 +78,12 @@ const routes = [
 
 const router = createRouter({
 	base: "/frontend/",
-	history: createWebHashHistory(),
+	// history: createWebHashHistory(),
+	history:createWebHistory(),
 	routes,
+	scrollBehavior() {
+		return { top: 0, left: 0 }
+	  }
 });
 
 export default router;
