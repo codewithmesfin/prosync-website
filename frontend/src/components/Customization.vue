@@ -34,7 +34,7 @@ const customization = {
 	rows: [
 		{
 			title: "Layout",
-			subtitle: "Customization of the admin panel layout to look like a professional one.",
+			subtitle: "Customization of the Admin Panel layout to look like a professional one.",
 			price: "2,000",
 		},
 		{
