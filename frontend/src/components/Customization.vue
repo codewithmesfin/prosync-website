@@ -78,14 +78,14 @@ const customization = {
 			price: "13,8000",
 		},
 		{
-			title:"Insights",
-			subtitle:"Customization of Frappe Business Intelligence Tool",
-			price:"10,000"
+			title: "Insights",
+			subtitle: "Customization of Frappe Business Intelligence Tool",
+			price: "10,000",
 		},
 		{
-			title:"Raven/Gameplan",
-			subtitle:"Customization of Raven or Gameplan communication and collaboration tool",
-			price:"6,500"
+			title: "Raven/Gameplan",
+			subtitle: "Customization of Raven or Gameplan communication and collaboration tool",
+			price: "6,500",
 		},
 	],
 };

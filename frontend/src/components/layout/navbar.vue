@@ -8,11 +8,11 @@
 						class="text-xl flex items-center text-white font-bold lg:ml-2.5"
 					>
 						<img
-							class="ml-3 w-8 h-8 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"
-							src="/vite.svg"
+							class="ml-3 w-8 h-8 rounded-full"
+							src="/logo.png"
 							alt="Bordered avatar"
 						/>
-						<span class="self-center pl-2 whitespace-nowrap">Prosync</span>
+						<span class="self-center pl-2 whitespace-nowrap">ProSync</span>
 					</router-link>
 					<button
 						@click="toggleSidebar"
@@ -84,7 +84,7 @@
 									<router-link to="/" class="text-xl brand font-bold lg:ml-2.5">
 										<span
 											class="self-center text-white pl-3 t whitespace-nowrap"
-											>Prosync</span
+											>ProSync</span
 										>
 									</router-link>
 									<button
