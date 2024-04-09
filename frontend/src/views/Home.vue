@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="w-full h-scren">
-			<section class="bg-black">
+			<section class="bg-gray-900">
 				<div class="bg-[url(/files/bg1.png)] bg-no-repeat bg-cover">
 					<div class="w-[90%] mx-auto py-10">
 						<div class="md:flex items-center justify-center md:space-x-10">
