@@ -2,7 +2,7 @@
 	<div>
 		<div class="w-full h-scren">
 			<section class="bg-black">
-				<div class="bg-[url(./bg1.png)] bg-no-repeat bg-cover">
+				<div class="bg-[url(/files/bg1.png)] bg-no-repeat bg-cover">
 					<div class="w-[90%] mx-auto py-10">
 						<div class="md:flex items-center justify-center md:space-x-10">
 							<div class="w-full md:w-2/5">
