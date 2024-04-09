@@ -143,7 +143,7 @@
 						<div class="grid grid-cols-1 md:grid-cols-3 gap-5">
 							<div v-for="(item, i) in team" :key="i">
 								<div class="rounded h-full">
-									<div class="flex items-center space-x-2 md:space-x-5 py-5">
+									<div class="flex items-center space-x-4 md:space-x-5 py-5">
 										<div class="h-full h-[200px] w-[250px]">
 											<img
 												:src="item.picture"
