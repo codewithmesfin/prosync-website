@@ -76,11 +76,11 @@
 									project.
 								</p>
 								<div class="py-3 pt-5">
-									<button
+									<router-link to="/contact"
 										class="rounded-lg rounded-tr-[15px] bg-[#27A167] md:text-lg font-semibold text-white px-10 py-2 shadow-xl"
 									>
 										Meet Experts
-									</button>
+									</router-link>
 								</div>
 							</div>
 							<div
@@ -102,11 +102,11 @@
 									you leverage their services at a discounted rate.
 								</p>
 								<div class="py-3 pt-5">
-									<button
+									<router-link to="/contact"
 										class="rounded-lg rounded-tr-[15px] bg-[#27A167] md:text-lg font-semibold text-white px-10 py-2 shadow-xl"
 									>
 										Get Started
-									</button>
+									</router-link>
 								</div>
 							</div>
 						</div>
@@ -126,11 +126,11 @@
 									Solution for Small and Medium Sized businesses.
 								</h1>
 								<div class="py-3 pt-5">
-									<button
+									<router-link to="/contact"
 										class="rounded-lg rounded-tr-[15px] bg-[#27A167] md:text-lg font-semibold text-white px-10 py-2 shadow-xl"
 									>
 										Try ERPNext
-									</button>
+									</router-link>
 								</div>
 							</div>
 							<div class="flex justify-center">
