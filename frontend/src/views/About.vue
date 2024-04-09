@@ -344,7 +344,7 @@ const team = [
 		picture: "/team/yohannes.png",
 		name: "Yohannes Paulos",
 		title: "Software Developer",
-		bio: "consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		bio: "Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
 		links: [
 			{
 				url: "/icon/github.png",
