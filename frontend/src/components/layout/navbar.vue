@@ -34,7 +34,6 @@
 						>
 							<a
 								v-if="nav.name == 'Blog'"
-								target="_blank"
 								href="/blog"
 								:class="
 									$route.path === nav.href
@@ -99,7 +98,6 @@
 								<li v-for="item in navigation" :key="item.name">
 									<a
 										v-if="item.name == 'Blog'"
-										target="_blank"
 										href="/blog"
 										class="text-base text-sm rounded-lg flex items-center p-2 group"
 										:class="
