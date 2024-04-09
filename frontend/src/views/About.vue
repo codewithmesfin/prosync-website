@@ -344,20 +344,16 @@ const team = [
 		picture: "/files/yohannes.png",
 		name: "Yohannes Paulos",
 		title: "Software Developer",
-		bio: "Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		bio: "Yohannes have extensive experience in developing various types of applications, ranging from social networking web applications to specialized business applications and ERP systems",
 		links: [
 			{
 				url: "/files/github.png",
-				href: "https://github.com/codewithmesfin",
+				href: "https://github.com/Jon21paulos",
 			},
 			{
 				url: "/files/linkedin.png",
-				href: "https://www.linkedin.com/in/codewithmesfin",
-			},
-			{
-				url: "/files/website.png",
-				href: "https://codewithmesfin.et",
-			},
+				href: "https://www.linkedin.com/in/jon21paulos/",
+			}
 		],
 	},
 ];
