@@ -253,109 +253,109 @@ const items = [
 
 const team = [
 	{
-		picture: "/team/hiwotb.png",
+		picture: "/files/hiwotb.png",
 		name: "Hiwot Bogale",
 		title: "Product Designer",
 		bio: "consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
 		links: [
 			{
-				url: "/icon/linkedin.png",
+				url: "/files/linkedin.png",
 				href: "https://www.linkedin.com/in/codewithmesfin",
 			},
 			{
-				url: "/icon/website.png",
+				url: "/files/website.png",
 				href: "https://codewithmesfin.et",
 			},
 		],
 	},
 	{
-		picture: "/team/hiwotz.png",
+		picture: "/files/hiwotz.png",
 		name: "Hiwot Zelalem",
 		title: "Software Developer",
 		bio: " A software engineer skilled in developing, testing, and maintaining high-quality websites. Proficient in various languages and frameworks. Committed to clean, scalable solutions and staying updated with industry trends.",
 		links: [
 			{
-				url: "/icon/github.png",
+				url: "/files/github.png",
 				href: "https://github.com/hiwiehk19",
 			},
 			{
-				url: "/icon/linkedin.png",
+				url: "/files/linkedin.png",
 				href: "https://www.linkedin.com/in/hiwot-zelalem/",
 			},
 			{
-				url: "/icon/website.png",
+				url: "/files/website.png",
 				href: "https://hiwotzelalem.netlify.app/",
 			},
 		],
 	},
 	{
-		picture: "/team/mesfin.png",
+		picture: "/files/mesfin.png",
 		name: "Mesfin Tsegaye",
 		title: "Senior Engineer",
 		bio: "Full-Stack Software Engineer with over 5 years of experience building web and mobile applications. Currently Mesfin is working on AI/ML, and Web3.0 based projects.",
 		links: [
 			{
-				url: "/icon/github.png",
+				url: "/files/github.png",
 				href: "https://github.com/codewithmesfin",
 			},
 			{
-				url: "/icon/linkedin.png",
+				url: "/files/linkedin.png",
 				href: "https://www.linkedin.com/in/codewithmesfin",
 			},
 			{
-				url: "/icon/website.png",
+				url: "/files/website.png",
 				href: "https://codewithmesfin.et/me",
 			},
 		],
 	},
 	{
-		picture: "/team/mewded.png",
+		picture: "/files/mewded.png",
 		name: "Mewded Ketema",
 		title: "Marketing Lead",
 		bio: "consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
 		links: [
 			{
-				url: "/icon/linkedin.png",
+				url: "/files/linkedin.png",
 				href: "/asdf",
 			},
 			{
-				url: "/icon/website.png",
+				url: "/files/website.png",
 				href: "/asdf",
 			},
 		],
 	},
 	{
-		picture: "/team/netsanet.png",
+		picture: "/files/netsanet.png",
 		name: "Netsanet Mesfin",
 		title: "Software Developer",
 		bio: "Netsanet possess extensive experience in software development and am dedicated to staying current on technological trends, providing high-quality, user-friendly solutions.",
 		links: [
 			{
-				url: "/icon/github.png",
+				url: "/files/github.png",
 				href: "https://github.com/freedoom16",
 			},
 			{
-				url: "/icon/linkedin.png",
+				url: "/files/linkedin.png",
 				href: "https://www.linkedin.com/in/netsanet-mesfin",
 			},
 		],
 	},
 	{
-		picture: "/team/yohannes.png",
+		picture: "/files/yohannes.png",
 		name: "Yohannes Paulos",
 		title: "Software Developer",
 		bio: "Consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
 		links: [
 			{
-				url: "/icon/github.png",
+				url: "/files/github.png",
 				href: "https://github.com/codewithmesfin",
 			},
 			{
-				url: "/icon/linkedin.png",
+				url: "/files/linkedin.png",
 				href: "https://www.linkedin.com/in/codewithmesfin",
 			},
 			{
-				url: "/icon/website.png",
+				url: "/files/website.png",
 				href: "https://codewithmesfin.et",
 			},
 		],
