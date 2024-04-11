@@ -144,7 +144,7 @@
 							<div v-for="(item, i) in team" :key="i">
 								<div class="rounded h-full">
 									<div class="flex items-center space-x-4 md:space-x-5 py-5">
-										<div class="h-full h-[200px] w-[250px]">
+										<div class="h-full min-h-[200px] max-w-[20px]">
 											<img
 												:src="item.picture"
 												alt=""
@@ -253,19 +253,15 @@ const items = [
 
 const team = [
 	{
-		picture: "/files/hiwotb.png",
+		picture: "./files/hiwotb.png",
 		name: "Hiwot Bogale",
 		title: "Product Designer",
-		bio: "consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		bio: "Hiwot is an emerging product designer, passionate about creating intuitive and visually appealing interfaces that enhance user satisfaction and drive engagement.",
 		links: [
 			{
 				url: "/files/linkedin.png",
-				href: "https://www.linkedin.com/in/codewithmesfin",
-			},
-			{
-				url: "/files/website.png",
-				href: "https://codewithmesfin.et",
-			},
+				href: "https://www.linkedin.com/in/hiwotbogale/",
+			}
 		],
 	},
 	{
@@ -353,7 +349,7 @@ const team = [
 			{
 				url: "/files/linkedin.png",
 				href: "https://www.linkedin.com/in/jon21paulos/",
-			}
+			},
 		],
 	},
 ];
