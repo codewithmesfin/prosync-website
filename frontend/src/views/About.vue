@@ -279,7 +279,7 @@ const team = [
 				href: "https://www.linkedin.com/in/hiwot-zelalem/",
 			},
 			{
-				url: "/files/website.png",
+				url: "/files/link.png",
 				href: "https://hiwotzelalem.netlify.app/",
 			},
 		],
@@ -299,7 +299,7 @@ const team = [
 				href: "https://www.linkedin.com/in/codewithmesfin",
 			},
 			{
-				url: "/files/website.png",
+				url: "/files/link.png",
 				href: "https://codewithmesfin.et/me",
 			},
 		],
@@ -315,7 +315,7 @@ const team = [
 				href: "/asdf",
 			},
 			{
-				url: "/files/website.png",
+				url: "/files/link.png",
 				href: "/asdf",
 			},
 		],
