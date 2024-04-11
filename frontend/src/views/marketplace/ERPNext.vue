@@ -22,7 +22,7 @@
 							</div>
 							<div class="w-full md:w-1/2">
 								<img
-									src="https://erpnext.com/files/erpnext-hero-compressed.png"
+									src="/img1.png"
 									alt="erpnext"
 									class=""
 								/>

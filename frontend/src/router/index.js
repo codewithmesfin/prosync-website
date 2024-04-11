@@ -10,6 +10,7 @@ import Contact from "../views/Contact.vue";
 import ERPNext from "../views/marketplace/ERPNext.vue";
 import Blog from '../views/blog/Blogs.vue'
 import Industries from '../views/Industries.vue'
+import Insights from '../views/marketplace/Insights.vue'
 
 const routes = [
 	{
@@ -29,6 +30,11 @@ const routes = [
 				path: "erpnext",
 				name: "ERPNext",
 				component: ERPNext,
+			},
+			{
+				path: "insights",
+				name: "Insights",
+				component: Insights,
 			},
 		],
 	},
