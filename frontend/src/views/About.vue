@@ -308,15 +308,11 @@ const team = [
 		picture: "/files/mewded.png",
 		name: "Mewded Ketema",
 		title: "Marketing Lead",
-		bio: "consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+		bio: "Mewded is a result-oriented marketing professional with a focus on developing and executing effective strategies, supported by advanced skills in social media management and content creation.",
 		links: [
 			{
 				url: "/files/linkedin.png",
-				href: "/asdf",
-			},
-			{
-				url: "/files/link.png",
-				href: "/asdf",
+				href: "inkedin.com/in/mewded-ketema-a9110621b",
 			},
 		],
 	},
