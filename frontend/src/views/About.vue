@@ -144,7 +144,7 @@
 							<div v-for="(item, i) in team" :key="i">
 								<div class="rounded h-full">
 									<div class="flex items-center space-x-4 md:space-x-5 py-5">
-										<div class="h-full min-h-[200px] max-w-[20px]">
+										<div class="h-full min-h-[200px] max-w-[200px]">
 											<img
 												:src="item.picture"
 												alt=""
