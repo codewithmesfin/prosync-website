@@ -11,6 +11,7 @@ import ERPNext from "../views/marketplace/ERPNext.vue";
 import Blog from '../views/blog/Blogs.vue'
 import Industries from '../views/Industries.vue'
 import Insights from '../views/marketplace/Insights.vue'
+import CRM from '../views/marketplace/CRM.vue'
 
 const routes = [
 	{
@@ -35,6 +36,11 @@ const routes = [
 				path: "insights",
 				name: "Insights",
 				component: Insights,
+			},
+			{
+				path: "crm",
+				name: "CRM",
+				component: CRM,
 			},
 		],
 	},

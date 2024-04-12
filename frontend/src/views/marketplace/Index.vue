@@ -62,6 +62,13 @@ const items = [
 		description: "Free and Open Source Data Analytics Tool for your Frappe Sites",
 	},
 	{
+		name: "CRM",
+		image: "https://frappecloud.com/files/FrappeCRM.png",
+		title: "Frappe CRM",
+		description:
+			"Modern and 100% Open-source CRM solution to supercharge your sales operations...",
+	},
+	{
 		name: "Builder",
 		image: "https://frappecloud.com/files/builder_logo_hd.png",
 		title: "Frappe Builder",
@@ -72,13 +79,6 @@ const items = [
 		image: "https://frappecloud.com/files/Gameplan%20Logo.png",
 		title: "Gameplan",
 		description: "Delightful, open-source, work communication tool for remote teams",
-	},
-	{
-		name: "CRM",
-		image: "https://frappecloud.com/files/FrappeCRM.png",
-		title: "Frappe CRM",
-		description:
-			"Modern and 100% Open-source CRM solution to supercharge your sales operations...",
 	},
 	{
 		name: "POS",

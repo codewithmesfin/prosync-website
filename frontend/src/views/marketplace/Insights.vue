@@ -9,7 +9,8 @@
 					<div class="md:flex md:items-center md:space-x-10 py-10">
 						<div class="w-full md:w-1/2">
 							<h2 class="text-gray-200 text-lg md:text-4xl py-2">
-								100% Free & Open Source <span class="text-green-600">Business Intelligence </span>Software
+								100% Free & Open Source
+								<span class="text-green-600">Business Intelligence </span>Software
 							</h2>
 							<p class="text-gray-300 text-sm">
 								Introducing Insights: Your comprehensive open-source business
@@ -22,7 +23,7 @@
 							</p>
 						</div>
 						<div class="w-full md:w-1/2">
-							<img src="/insights.png" alt="erpnext" class="" />
+							<img src="/insights.png" alt="erpnext"/>
 						</div>
 					</div>
 				</div>
@@ -115,8 +116,6 @@
 				</div>
 			</div>
 		</section>
-
-        
 	</div>
 </template>
 
