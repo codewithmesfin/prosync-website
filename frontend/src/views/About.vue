@@ -285,7 +285,7 @@ const team = [
 		],
 	},
 	{
-		picture: "/files/mesfin.png",
+		picture: "/files/mesfine.png",
 		name: "Mesfin Tsegaye",
 		title: "Senior Engineer",
 		bio: "Full-Stack Software Engineer with over 5 years of experience building web and mobile applications. Currently Mesfin is working on AI/ML, and Web3.0 based projects.",
