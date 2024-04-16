@@ -23,7 +23,7 @@
 			<section class="bg-gray-900">
 				<div class="w-[90%] mx-auto">
 					<img
-						src="/files/about.jpg"
+						src="https://prosync.site/files/about.jpg"
 						alt=""
 						class="w-full h-full rounded object-contain"
 					/>
@@ -62,7 +62,7 @@
 							</div>
 							<div class="w-full md:w-1/2 py-10 md:py-1">
 								<img
-									src="/files/aboutus.png"
+									src="https://prosync.site/files/aboutus.png"
 									alt=""
 									class="rounded"
 								/>
