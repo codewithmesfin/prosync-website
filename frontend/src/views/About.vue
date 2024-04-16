@@ -23,9 +23,9 @@
 			<section class="bg-gray-900">
 				<div class="w-[90%] mx-auto">
 					<img
-						src="https://assets-global.website-files.com/62226180d38a78472cd35dd2/6262ed5d6d99d9377c1c8b3e_Seamless_Leadership-Meeting.webp"
+						src="/files/about.jpg"
 						alt=""
-						class="w-full h-full object-contain"
+						class="w-full h-full rounded object-contain"
 					/>
 				</div>
 			</section>
@@ -62,8 +62,9 @@
 							</div>
 							<div class="w-full md:w-1/2 py-10 md:py-1">
 								<img
-									src="https://img.freepik.com/free-photo/team-database-admins-analyzing-source-code-wall-screen-tv-comparing-errors-using-digital-tablet-busy-server-room-two-cloud-programers-debugging-algorithm-software-innovation-office_482257-43976.jpg?t=st=1712655494~exp=1712659094~hmac=67c1e6bd8b49e3b605e82e4190fc064eff97596b5e1236161511d47fdda299a6&w=1800"
+									src="/files/aboutus.png"
 									alt=""
+									class="rounded"
 								/>
 							</div>
 						</div>
