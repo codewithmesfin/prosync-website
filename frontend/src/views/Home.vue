@@ -9,11 +9,14 @@
 								<h1
 									class="py-2 text-center text-3xl md:text-5xl font-bold text-gray-100"
 								>
-									Explore the limitless possibilities with ProSync
+									Explore the limitless possibilities with ProSync.
 								</h1>
 								<p class="py-2 text-center text-gray-400 text-md md:text-lg">
-									Leverage our expertise to customize Frappe and ERPNext for your
-									success
+									Get the perfect fit for your business. We'll customize
+									<span class="text-green-400 font-extrabold text-2xl"
+										>Frappe and ERPNext</span
+									>
+									with our expertise to ensure your success.
 								</p>
 								<div class="py-3 pt-10 flex justify-center">
 									<router-link
@@ -40,19 +43,22 @@
 						Get started with <br />
 						100% free Enterprise Software
 					</h1>
-					<div class="p-5 md:bg-gray-700 my-10"> 
+					<div class="p-5 md:bg-gray-700 my-10">
 						<div class="grid grid-cols-1 md:grid-cols-3">
-						<div v-for="(item, i) in items" :key="i"
-						 class="flex space-x-3 border border-gray-600 p-5">
-							<div class="text-green-500">
-								<icon path="done" />
-							</div>
-							<div>
-								<h1 class="text-gray-300">{{ item.title }}</h1>
-								<p class="text-sm text-gray-400 ">{{ item.subtitle }}</p>
+							<div
+								v-for="(item, i) in items"
+								:key="i"
+								class="flex space-x-3 border border-gray-600 p-5"
+							>
+								<div class="text-green-500">
+									<icon path="done" />
+								</div>
+								<div>
+									<h1 class="text-gray-300">{{ item.title }}</h1>
+									<p class="text-sm text-gray-400">{{ item.subtitle }}</p>
+								</div>
 							</div>
 						</div>
-					</div>
 					</div>
 				</div>
 			</section>
@@ -213,8 +219,7 @@ const items = [
 	},
 	{
 		title: "Pay only if you need",
-		subtitle:
-			"Extra Customization, Hosting, Support, Training, New Feature(Module)",
+		subtitle: "Extra Customization, Hosting, Support, Training, New Feature(Module)",
 	},
 ];
 </script>

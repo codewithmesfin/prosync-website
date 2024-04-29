@@ -11,9 +11,9 @@
 								Get to Know ProSync Better
 							</h1>
 							<p class="text-gray-300 md:text-xl text-center py-8">
-								The team behind ProSync is working hard to deliver products of
-								exceptional quality to small and medium sized businesses in
-								Ethiopia and provide a real value to the world.
+								<span class="text-green-400">Meet ProSync</span>, a team working
+								hard to deliver products of exceptional quality to small and medium
+								sized businesses in Ethiopia and provide a real value to the world.
 							</p>
 						</div>
 					</div>
@@ -39,15 +39,15 @@
 									About ProSync
 								</h1>
 								<p class="text-gray-300 py-2">
-									At TechEthio IT Solution plc, our team is composed of dedicated
-									professionals with backgrounds in Software Engineering,
-									Artificial Intelligence, and Digital Marketing. We bring a
-									wealth of expertise to the table, leveraging our diverse skill
-									sets to deliver innovative solutions tailored to the needs of
-									Ethiopian SMEs. Our collaborative approach ensures that we not
-									only develop but also reengineer ERPNext and Frappe products to
-									perfectly align with the unique challenges and opportunities
-									present in the Ethiopian market.
+									<span class="text-green-400">ProSync</span> is a team of
+									software engineers, AI specialists, and digital marketers
+									leveraging the expertise of TechEthio IT Solution plc. <br />
+									<span class="text-green-400">ProSync</span>
+									boasts a diverse range of expertise, allowing us to develop and
+									refine ERPNext and Frappe products specifically for the
+									Ethiopian market. We take a collaborative approach, ensuring
+									not only perfect alignment with your unique challenges but also
+									the creation of innovative solutions.
 								</p>
 								<p class="text-gray-300 py-2">
 									With ProSync, Ethiopian SMEs can harness the power of advanced
@@ -262,7 +262,7 @@ const team = [
 			{
 				url: "/files/linkedin.png",
 				href: "https://www.linkedin.com/in/hiwotbogale/",
-			}
+			},
 		],
 	},
 	{
