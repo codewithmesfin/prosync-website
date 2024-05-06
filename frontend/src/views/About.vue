@@ -285,26 +285,7 @@ const team = [
 			},
 		],
 	},
-	{
-		picture: "/files/mesfine.png",
-		name: "Mesfin Tsegaye",
-		title: "Senior Engineer",
-		bio: "Full-Stack Software Engineer with over 5 years of experience building web and mobile applications. Currently Mesfin is working on AI/ML, and Web3.0 based projects.",
-		links: [
-			{
-				url: "/files/github.png",
-				href: "https://github.com/codewithmesfin",
-			},
-			{
-				url: "/files/linkedin.png",
-				href: "https://www.linkedin.com/in/codewithmesfin",
-			},
-			{
-				url: "/files/link.png",
-				href: "https://codewithmesfin.et/me",
-			},
-		],
-	},
+	
 	{
 		picture: "/files/mewded.png",
 		name: "Mewded Ketema",
