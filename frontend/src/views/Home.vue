@@ -63,15 +63,7 @@
 				</div>
 			</section>
 
-			<!-- <section class="hidden md:block bg-gray-800 py-10 h-full">
-				<div class="w-[90%] mx-auto h-full">
-					<img
-						src="https://erpnext.com/files/erpnext-comic400604.png"
-						alt=""
-						class="h-full max-h-[700px]"
-					/>
-				</div>
-			</section> -->
+			
 
 			<section class="bg-gray-900">
 				<div class="py-10">
