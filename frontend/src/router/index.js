@@ -12,6 +12,7 @@ import Blog from '../views/blog/Blogs.vue'
 import Industries from '../views/Industries.vue'
 import Insights from '../views/marketplace/Insights.vue'
 import CRM from '../views/marketplace/CRM.vue'
+import HRMS from '../views/marketplace/HRMS.vue'
 
 const routes = [
 	{
@@ -41,6 +42,11 @@ const routes = [
 				path: "crm",
 				name: "CRM",
 				component: CRM,
+			},
+			{
+				path: "hrms",
+				name: "HRMS",
+				component: HRMS,
 			},
 		],
 	},

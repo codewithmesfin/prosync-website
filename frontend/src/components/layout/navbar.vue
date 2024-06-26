@@ -106,7 +106,7 @@
 												: 'text-gray-300'
 										"
 									>
-									<span class="ml-3">{{ item.name }} </span>
+										<span class="ml-3">{{ item.name }} </span>
 									</a>
 									<router-link
 										v-else
