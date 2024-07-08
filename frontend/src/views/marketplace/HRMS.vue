@@ -68,28 +68,26 @@
 			</div>
 		</section>
 
-        <section class="bg-gray-700">
-				<div class="w-[90%] mx-auto py-10">
-					<div class="">
-						<h1 class="text-green-300 text-lg md:text-xl text-center py-2">
-							We're Innovating
-						</h1>
-						<h1
-							class="py-2 text-gray-200 text-2xl md:text-5xl font-extrabold text-center"
+		<section class="bg-gray-700">
+			<div class="w-[90%] mx-auto py-10">
+				<div class="">
+					<h1 class="text-green-300 text-lg md:text-xl text-center py-2">
+						We're Innovating
+					</h1>
+					<h1 class="py-2 text-gray-200 text-2xl md:text-5xl font-extrabold text-center">
+						Try ProSync today
+					</h1>
+					<div class="py-5 flex justify-center">
+						<router-link
+							to="/contact"
+							class="rounded-xl bg-[#27A167] md:text-lg font-semibold text-white px-5 py-2 shadow-xl"
 						>
-							Try ProSync today
-						</h1>
-						<div class="py-5 flex justify-center">
-							<router-link
-								to="/contact"
-								class="rounded-xl bg-[#27A167] md:text-lg font-semibold text-white px-5 py-2 shadow-xl"
-							>
-								Meet the Team
-							</router-link>
-						</div>
+							Meet the Team
+						</router-link>
 					</div>
 				</div>
-			</section>
+			</div>
+		</section>
 	</div>
 </template>
 
@@ -130,20 +128,23 @@ const reasons = [
 		subtitle:
 			"Built on the flexible Frappe Framework, Frappe HR lets you configure and customize to your liking. Create reports, forms, custom fields, print formats, and change layouts on the fly!",
 	},
-    {
-        img:"https://frappehr.com/files/hr.webp",
-        title:"Affordability",
-        subtitle:"Frappe HR is built for everyone in the organization: Employees, Team, and Company. Deliver the best employee and HR experience with affordable pricing."
-    },
-    {
-        img:"https://frappehr.com/files/brew.webp",
-        title:"Perfectly made for you",
-        subtitle:"With frequent updates, consistent support, and a user-first approach, we go above and beyond to deliver the product you need."
-    },
-    {
-        img:"https://frappehr.com/files/clutter-free.webp",
-        title:"Beautifully designed",
-        subtitle:"With a clean UI, powerful navigation, and easy communication tracking, Frappe HR provides a delightful experience by making processes less overwhelming."
-    }
+	{
+		img: "https://frappehr.com/files/hr.webp",
+		title: "Affordability",
+		subtitle:
+			"Frappe HR is built for everyone in the organization: Employees, Team, and Company. Deliver the best employee and HR experience with affordable pricing.",
+	},
+	{
+		img: "https://frappehr.com/files/brew.webp",
+		title: "Perfectly made for you",
+		subtitle:
+			"With frequent updates, consistent support, and a user-first approach, we go above and beyond to deliver the product you need.",
+	},
+	{
+		img: "https://frappehr.com/files/clutter-free.webp",
+		title: "Beautifully designed",
+		subtitle:
+			"With a clean UI, powerful navigation, and easy communication tracking, Frappe HR provides a delightful experience by making processes less overwhelming.",
+	},
 ];
 </script>

@@ -81,10 +81,10 @@ const items = [
 		description: "Delightful, open-source, work communication tool for remote teams",
 	},
 	{
-		name: "POS",
-		image: "https://frappecloud.com/files/pos.png",
-		title: "POS Awesome",
-		description: "Advanced Point of Sale for ERPNext",
+		name: "Twilio",
+		image: "https://i0.wp.com/siliconspectra.com/wp-content/uploads/2019/10/logobtwiliobvector-1571991405cl84p.png?fit=700%2C700&ssl=1",
+		title: "Contact Center",
+		description: "Automation of your Call Center",
 	},
 	{
 		name: "Raven",

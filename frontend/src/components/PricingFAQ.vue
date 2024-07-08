@@ -54,6 +54,10 @@ const items = [
 	{
 		title:"Will I get Technical support?",
 		subtitle:"Prosync provides product warranty (replicable bug fix support) for Framework, Frappe apps for sites on and above ETB 5,700 plans. If you have purchased a dedicated server, then product warranty is available for any five sites hosted on the dedicated server. Please note, that once you switch to a supported plan, you will not be able to switch back for 30 days. If you need consultation or implementation support, you can connect with one of our official partners."
+	},
+	{
+		title:"Can I start with a few modules and add other module(s) later?",
+		subtitle:"Yes you can definitely."
 	}
 ];
 </script>

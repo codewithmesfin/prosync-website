@@ -13,6 +13,8 @@ import Industries from '../views/Industries.vue'
 import Insights from '../views/marketplace/Insights.vue'
 import CRM from '../views/marketplace/CRM.vue'
 import HRMS from '../views/marketplace/HRMS.vue'
+import Healthcare from '../views/marketplace/Healthcare.vue'
+import Twilio from '../views/marketplace/Twilio.vue'
 
 const routes = [
 	{
@@ -47,6 +49,16 @@ const routes = [
 				path: "hrms",
 				name: "HRMS",
 				component: HRMS,
+			},
+			{
+				path: "healthcare",
+				name: "Healthcare",
+				component: Healthcare,
+			},
+			{
+				path: "twilio",
+				name: "Twilio",
+				component: Twilio,
 			},
 		],
 	},

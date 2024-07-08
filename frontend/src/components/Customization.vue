@@ -80,12 +80,27 @@ const customization = {
 		{
 			title: "Insights",
 			subtitle: "Customization of Frappe Business Intelligence Tool",
-			price: "10,000",
+			price: "20,000",
 		},
 		{
 			title: "Raven/Gameplan",
 			subtitle: "Customization of Raven or Gameplan communication and collaboration tool",
 			price: "6,500",
+		},
+		{
+			title: "Twilio",
+			subtitle: "Intagration of Twilio for automating your call center",
+			price: "8,000",
+		},
+		{
+			title: "Supply Chian Management",
+			subtitle: "Customization of Supply chain modules",
+			price: "10,000",
+		},
+		{
+			title: "Landing page",
+			subtitle: "Develop landing page for your company",
+			price: "15,000",
 		},
 	],
 };
