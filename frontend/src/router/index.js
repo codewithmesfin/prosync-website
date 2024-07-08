@@ -1,4 +1,4 @@
-import { createRouter,  createWebHashHistory, createWebHistory } from "vue-router";
+import { createRouter,  createWebHashHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Marketplace from "../views/marketplace/Index.vue";
 import authRoutes from "./auth";
@@ -15,6 +15,12 @@ import CRM from '../views/marketplace/CRM.vue'
 import HRMS from '../views/marketplace/HRMS.vue'
 import Healthcare from '../views/marketplace/Healthcare.vue'
 import Twilio from '../views/marketplace/Twilio.vue'
+import LMS from '../views/marketplace/LMS.vue'
+import Builder from '../views/marketplace/Builder.vue'
+import Gameplan from '../views/marketplace/Gameplan.vue'
+import Raven from '../views/marketplace/Raven.vue'
+import Whatsapp from '../views/marketplace/Whatsapp.vue'
+import Telegram from '../views/marketplace/Telegram.vue'
 
 const routes = [
 	{
@@ -59,6 +65,36 @@ const routes = [
 				path: "twilio",
 				name: "Twilio",
 				component: Twilio,
+			},
+			{
+				path: "school",
+				name: "School",
+				component: LMS,
+			},
+			{
+				path: "builder",
+				name: "Builder",
+				component: Builder,
+			},
+			{
+				path: "gameplan",
+				name: "Gameplan",
+				component: Gameplan,
+			},
+			{
+				path: "raven",
+				name: "Raven",
+				component:Raven,
+			},
+			{
+				path: "whatsapp",
+				name: "Whatsapp",
+				component:Whatsapp,
+			},
+			{
+				path: "telegram",
+				name: "Telegram",
+				component:Telegram,
 			},
 		],
 	},
