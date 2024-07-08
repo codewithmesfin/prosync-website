@@ -51,6 +51,6 @@ const items = [
 	"Frappe User signup",
 	"Tracks Chats and contained messages",
 	"Supports sending messages from bot via frappe hooks / controller methods",
-	"Integration with frappe Notification doctype",
+	"Integration with frappe Notification doctype"
 ];
 </script>
